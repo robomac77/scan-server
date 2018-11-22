@@ -16,7 +16,7 @@ namespace NEL_Scan_API
                 .UseStartup<Startup>()
                 .UseKestrel(options =>
                 {
-                    options.Listen(IPAddress.Any, 86);
+                    options.Listen(IPAddress.Any,59999);
                 })
                 .Build();
     }
